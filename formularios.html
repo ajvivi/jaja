@@ -25,6 +25,31 @@
         <input type="submit" value="Enviar">
     </form>
     <a href="index.html">Volver</a>
+    <br>
+    <select required="pais" id="pais">
+        <option value="">[seleccione pais]</option>
+        <option value="1">chile</option>
+        <option value="2">peru</option>
+        <option value="3">colombia</option>
+        <option value="4">españa</option>
+        <option value="5">portugal</option>
+        <option value="6">italia</option>
+    </select>
+    <!--select>optgroup*2>opt*3-->
+    <select name="pais" id="pais">
+        <optgroup label="america">
+            <option value="">chile</option>
+            <option value="">peru</option>
+            <option value="">colombia</option>
+
+        </optgroup>
+        <optgroup> <label="europa">
+            <option value="">españa</option>
+            <option value="">portugal</option>
+            <option value="">italia</option>
+        </optgroup>
+    </select>
+    
 </body>
 
 </html>
